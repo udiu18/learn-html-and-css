@@ -1,37 +1,58 @@
-body {
+#logo
+{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+}
+
+body
+{
     margin: 0;
-    color: #82a5ca;
+    font-family: 'Orbitron', sans-serif;
     text-align: center;
-    font-family: 'Orbitron', sans-serif;
+    color: #6495b0;
 }
 
-#hero {
-    background-image: url("images/galaxy.webp");
+.hero
+{
+    background-image: url("galaxy.gif");
     background-size: cover;
-    padding: 10px 0 40px 0;
+    padding: 10px 0 625px 0 ;
 }
 
-#main-logo {
-    width: 100px;
+.btn
+{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: rgb(195, 195, 196);
+    line-height: 35px;
+    width: 200p;
+    padding: 3 6 3 6;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: inherit;
+    color: black;
+    font-weight: 300;
 }
 
-/*
-Challenge:
-Add a blurred border around the <h1> using
-the text-shadow technique you just learned. Set
-the blur to 4px and the color to black.
-*/
-
-.btn {
-    padding: 6px 12px;
-    background: white;
+.title 
+{
+    text-align: center;
+    font-size: 50px;
     border: none;
-    font-family: 'Orbitron', sans-serif;
-    color: #82a5ca;
-    font-weight: 800;
+    text-shadow: 2px 2px 1px #acd7ee;
 }
 
-.underline {
+.underline
+{
     border-bottom: 4px solid white;
 }
-   
+
+.TS 
+{
+    font-size: 40px;
+    font-family: 'Orbitron', sans-serif;
+    color: #6495b0;
+    text-align: center;
+}
